@@ -1,0 +1,308 @@
+.video_box1{
+    position:relative;
+}
+.video_with_button{
+    position: relative;
+}
+.mute_button{
+    position:absolute;
+    background-color:transparent;
+    padding: 0;
+    left: 20px;
+    top: 10px;
+    border: none;
+    background-color: rgba(220, 220, 220, 0.4);
+    height: 35px;
+    width:35px;
+    font-size:20px;
+    font-weight: 300;
+}
+
+.bi-volume-down{
+    display:none;
+
+}
+
+#input{
+    padding:0.5rem;
+    border-radius: 0%;
+}
+
+#subscribe{
+    padding:0.5rem;
+    border-radius: 0%;
+}
+
+/* dekstop */
+@media only screen and (min-width: 1300px){
+    .mute_button{
+        left: 40px;
+        top: 30px;
+        height: 60px;
+        width:60px;
+        font-size:30px;
+    }
+
+    #essential{
+        font-size:65px;
+        margin-top:60px;
+    }
+
+    #soon{
+        font-size:30px;
+        margin-top: 0.5rem;
+    }
+
+    #updates{
+        font-size:18px;
+        margin-top: 8rem;
+        align-self: flex-start;
+    }
+
+    #input{
+        position: absolute;
+        width: 295.58px;
+        height: 60px;
+        left: 22px;
+        top: 430px;
+        font-family: 'caviar_dreamsregular';
+        border: 1px solid #373737;
+        background-color: transparent;
+        font-size:16px;
+    }
+
+    #subscribe{
+        position: absolute;
+        width: 163px;
+        height: 60px;
+        top: 430px;
+        left: 317px;
+        background: #373737;
+        color: #FFFFFF;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: 'caviar_dreamsregular';
+        border: none;
+    }
+
+    .box{
+        position: absolute;
+        right:100px;
+        top:200px;
+        height: 567px;
+        width:507px;
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(31px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1.5rem;
+    }
+
+}
+
+/* intre dekstop si tableta */
+@media only screen and (min-width: 900px) and (max-width:1300px){
+    .mute_button{
+        left: 40px;
+        top: 30px;
+        height: 60px;
+        width:60px;
+        font-size:30px;
+    }
+
+    #essential{
+        font-size:45px;
+        margin-top:30px;
+    }
+
+    #soon{
+        font-size:20px;
+        margin-top: 0.4rem;
+    }
+
+    #updates{
+        font-size:15px;
+        margin-top: 7rem;
+        align-self: flex-start;
+    }
+
+    #input{
+        position: absolute;
+        width: 210px;
+        height: 40px;
+        left: 14px;
+        top: 330px;
+        font-family: 'caviar_dreamsregular';
+        border: 1px solid #373737;
+        background-color: transparent;
+        font-size:13px;
+    }
+
+    #subscribe{
+        position: absolute;
+        width:133px;
+        height: 40px;
+        top: 330px;
+        left: 224px;
+        background: #373737;
+        color: #FFFFFF;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: 'caviar_dreamsregular';
+        border :1px solid black;
+    }
+
+    .box{
+        position: absolute;
+        right:80px;
+        top:100px;
+        height: 420px;
+        width:370px;
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(31px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.8rem;
+    }
+}
+
+/* tableta */
+@media only screen and (min-width: 660px) and (max-width:900px){
+   
+    .video_with_button .video-js {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 56.25vw !important;
+    }
+
+    #essential{
+        font-size:35px;
+        margin-top:60px;
+    }
+
+    .mute_button{
+        left: 40px;
+        top: 30px;
+        height: 40px;
+        width:40px;
+        font-size:20px;
+    }
+
+    #soon{
+        font-size:15px;
+    }
+
+    #updates{
+        font-size:15px;
+        margin-top: 4rem;
+        align-self: flex-start;
+    }
+
+    #input{
+        position: absolute;
+        width: 60%;
+        height: 45px;
+        left: 8px;
+        top: 265px;
+        font-family: 'caviar_dreamsregular';
+        border: 1px solid #373737;
+        background-color: transparent;
+        font-size:12px;
+    }
+
+    #subscribe{
+        position: absolute;
+        width: 35%;
+        height: 45px;
+        top: 265px;
+        left: 181px;
+        background: #373737;
+        color: #FFFFFF;
+        font-weight: 200;
+        font-size: 12px;
+        font-family: 'caviar_dreamsregular';
+        border: none;
+    }
+
+    .box{
+        position: absolute;
+        right:4rem;
+        top: 3rem;
+        height: 21rem;
+        width:18rem;
+        background: rgba(255, 255, 255, 0.72);
+        backdrop-filter: blur(31px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem;
+    }
+}
+
+/* telefon */
+@media only screen and (max-width: 660px){
+
+    .video_with_button .video-js {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 56.25vw !important;
+    }
+    #essential{
+        margin-top:1rem;
+        font-size:30px;
+        font-weight: 900;
+    }
+
+    #soon{
+        font-size:15px;
+        
+    }
+
+    #updates{
+        font-size:7px;
+        align-self: flex-start;
+        display: none;
+        
+    }
+
+    #input{ 
+        align-self:stretch;
+        font-family: 'caviar_dreamsregular';
+        border: 1px solid #373737;
+        background-color: transparent;
+        margin-bottom:10px;
+        padding-left:16px;
+        padding-right:16px;
+        padding-top:24px;
+        padding-bottom:24px;
+
+    }
+
+    #subscribe{
+        align-self:stretch;
+        border:1px solid #373737;
+        background: #373737;
+        color: #FFFFFF;
+        font-weight: 200;
+        font-size: 16px;
+        font-family: 'caviar_dreamsregular';
+        padding-left:16px;
+        padding-right:16px;
+        padding-top:24px;
+        padding-bottom:24px;
+    }
+
+    .box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 2rem;
+        padding-left:2rem;
+        padding-bottom:1rem;
+        
+        
+    }
+
+}

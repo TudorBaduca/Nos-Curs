@@ -1,0 +1,101 @@
+.menu{
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+}
+.logo-holder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icons{
+    display:flex;
+    justify-content:end;
+    align-items:center;
+}
+.icons a{
+    display:flex;
+}
+
+/* dekstop */
+@media only screen and (min-width: 1300px){
+    .facebook{
+        padding-right: 100px;
+        padding-left: 25px;
+    }
+    .menu{
+        padding-left: 100px;
+        padding-bottom:15px;
+    }
+    .logo{
+        width:11rem;
+        margin-top:38px;
+        margin-bottom:48px;
+        margin-right:px;
+    }
+}
+
+/* intre dekstop si tableta */
+@media only screen and (min-width: 900px) and (max-width:1300px){
+    .facebook{
+        padding-right: 100px;
+        padding-left: 25px;
+    }
+    .menu{
+        padding-left: 100px;
+        padding-bottom:15px;
+    }
+    .logo{
+        width:11rem;
+        margin-top:38px;
+        margin-bottom:48px;
+        margin-right:px;
+    }
+}
+/* tableta */
+@media only screen and (min-width: 660px) and (max-width:900px){
+    .facebook{
+        padding-right: 3rem;
+        padding-left: 25px;
+    }
+    .menu{
+        padding-left: 3rem;
+        padding-bottom:15px;
+    }
+    .logo{
+        width:10rem;
+        margin-top:38px;
+        margin-bottom:48px;
+        margin-right:10px;
+    }
+}
+/* telefon */
+@media only screen and (max-width: 660px){
+    .facebook{
+        padding-right: 20px;
+        padding-left: 20px;
+        height: 16px;
+    }
+    .instagram{
+        height: 16px;
+    }
+    #site-header{
+        margin-top:33px;
+        margin-bottom:25px;
+    }
+    .menu{
+        padding-left: 30px;
+        height: 20px;
+        align-items: flex-start;
+    }
+    .logo{
+        width:8rem;
+        margin-right:8px;
+    }
+
+    .icons{
+        align-items: flex-start;
+    }
+
+}

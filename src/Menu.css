@@ -1,0 +1,58 @@
+.menu_bar{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: white;
+    /* border-right: 1px solid #373737; */
+    z-index: 100;
+    transition: left 1s;
+    /* border-bottom: 1px solid #373737; */
+}
+
+
+.menu_bar.show{
+    left: 0;
+    
+}
+
+.nav-item:hover{
+    background-color: lightgrey;
+}
+
+/* dekstop */
+@media only screen and (min-width: 1300px){
+    .menu_bar{
+        width: 400px;
+        left: -401px;
+        padding: 40px;
+        padding-left: 100px;
+        font-size: 20px;
+    }
+}
+
+/* intre dekstop si tableta */
+@media only screen and (min-width: 900px) and (max-width:1300px){
+    .menu_bar{
+        width: 200px;
+        left: -201px;
+        padding: 20px;
+    }
+}
+
+ /* tableta */
+ @media only screen and (min-width: 660px) and (max-width:900px){
+    .menu_bar{
+        width: 200px;
+        left: -201px;
+        padding: 20px;
+    }
+ }
+
+ /* telefon */
+@media only screen and (max-width: 660px){
+    .menu_bar{
+        width: 200px;
+        left: -201px;
+        padding: 20px;
+    }
+}
